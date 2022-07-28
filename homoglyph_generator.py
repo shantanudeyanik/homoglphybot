@@ -27,14 +27,14 @@ def homograph(text_):
     avc = avc.replace("\u006f","\u043e") #o
 
     avc = avc.replace(cap_basic_lst[0] ,cap_l_lst [0])
-    avc = avc.replace(cap_basic_lst[1] ,cap_l_lst [1])
+#     avc = avc.replace(cap_basic_lst[1] ,cap_l_lst [1])
     avc = avc.replace(cap_basic_lst[2] ,cap_l_lst [2])
     avc = avc.replace(cap_basic_lst[3] ,cap_l_lst [3])
     avc = avc.replace(cap_basic_lst[4] ,cap_l_lst [4])
     avc = avc.replace(cap_basic_lst[5] ,cap_l_lst [5])
     avc = avc.replace(cap_basic_lst[6] ,cap_l_lst [6])
     avc = avc.replace(cap_basic_lst[7] ,cap_l_lst [7])
-    avc = avc.replace(cap_basic_lst[8] ,cap_l_lst [8])
+#     avc = avc.replace(cap_basic_lst[8] ,cap_l_lst [8])
     avc = avc.replace(cap_basic_lst[9] ,cap_l_lst [9])
     avc = avc.replace(cap_basic_lst[10] ,cap_l_lst [10])
     avc = avc.replace(cap_basic_lst[11] ,cap_l_lst [11])
