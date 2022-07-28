@@ -24,6 +24,7 @@ def homograph(text_):
     avc = avc.replace("\u0073",small_letter_list[9])
     avc = avc.replace("\u0078",small_letter_list[10])
     avc = avc.replace("\u0079",small_letter_list[11])
+    avc = avc.replace("\u006f","\u043e") #o
 
     avc = avc.replace(cap_basic_lst[0] ,cap_l_lst [0])
     avc = avc.replace(cap_basic_lst[1] ,cap_l_lst [1])
@@ -44,7 +45,3 @@ def homograph(text_):
 
     return avc
 
-# if __name__ == "__main__":
-#     print("hola")
-#     text_ = input("Enter Text you wants to encode: ")
-#     print(homograph(text_))
