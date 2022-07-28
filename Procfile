@@ -1,1 +1,1 @@
-worker: python homoglyph_telegram.py
+worker: python3 homoglyph_telegram.py
